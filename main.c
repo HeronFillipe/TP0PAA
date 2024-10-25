@@ -134,10 +134,10 @@ int main() {
 
         if (quantidade <= 0) {
             quantidade = rand() % 100 + 1;
-            printf("\nValor fora do limite!\n Novo valor atribuido é %i\n", quantidade);
+            printf("\nValor fora do limite!\n Novo valor atribuido = %i\n", quantidade);
         } else if (quantidade > 100) {
             quantidade = 100;
-            printf("\nValor fora do limite!\n Novo valor atribuido é %i\n", quantidade);
+            printf("\nValor fora do limite!\n Novo valor atribuido = %i\n", quantidade);
         }
 
         iniciaQuadro();
